@@ -1,0 +1,24 @@
+#about AWS and its services
+    creating the account
+#EC2 services 
+    creating instances with AMI
+    creating volumes ,snapshot (elestic block stores)
+    Network and scurity security groups,elestic ips,key pairs,Network interface
+    Load balance
+#IAM services
+    creating users
+    creating usergroups
+    giving permissions for perticular
+#Cloud Watch services
+    creating alarms
+    checking logs (log grouos)
+    checking bills
+#S3 services
+    creating buckets
+    store the data in buckets
+    adding permissions
+#RDS services
+    creating database
+#AWS CLI
+    installing cli
+    config with user
