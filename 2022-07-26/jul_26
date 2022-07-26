@@ -1,0 +1,21 @@
+#VPS services
+    creating a vpc under a region
+    #subnets
+        creating a subnets at different avilable zones with different range of ips under a vpc
+    #Intenet gateway
+        creating a internet gateway to a vpc
+    #Route table    
+        creating a route table and config the subnets in route table
+    #security
+        network ACLs
+        security groups
+#EC2 services
+    #EBC 
+        creating volumes
+        attaching and detaching volumes to an instance
+        creating snapshots to the volumes
+#RDS services
+    creating a database to an perticular instance
+#S3 services
+    understanding the objects
+    uploding the files and folders
