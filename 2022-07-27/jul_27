@@ -1,0 +1,23 @@
+#EC2 service
+    Load balancer
+        Network load balancer,Application load balancer,Gateway load balancer    
+        #Network load balancer
+        creating load balancer 
+        adding a listner
+    #Target group    
+        creating target group with required instances
+        assigning a targetgroup to a load balancer
+    #EBS
+        mounting the volumes to the required path
+        look at snapshots
+#VPC service
+    creating subnets
+    creating route table
+    creating Internet gateway to a VPC
+    creating public and private instance 
+    accessing the private instance by public instance
+    NAT gateway
+    creating a nat gateway in a public subnet instance
+    accessing the private instance by nat gatway
+#System management
+    understanding ssm
