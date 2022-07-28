@@ -1,0 +1,15 @@
+#EC2 services
+    #EBS 
+        creating volumes and attaching to instance with same zone
+        creating the snapshot and attaching to volumes
+        creating the new volumes using snapshot (different zone) and attaching it to a new instance at different zone
+        retriving the data from snapshot 
+    #AMI 
+        creating AMI's 
+        creating templets using the instance 
+#VPC services
+    creating private instance and connecting network to that instance using nat gateway
+    peering connection between two vps at same region and different region
+    ping the server at different vps
+#CLOUDWATCH
+    creating alarms for cpu for alerting
