@@ -1,0 +1,21 @@
+#GITHUB actions
+    creating yml files to auto upload the files when events are triggered
+    events like push,pull_request..etc
+    on:
+        push:
+            branches:
+            - master
+    filtering ie triggers only when push from master or main branches
+    on:
+        push:
+            branches: [ master , main]
+    creating yml file to auto upload the files at schduling time ie:for every 10 min
+    on:
+        schedule:
+            - cron: '10 * * * *'
+            - cron: '10 * * * *' 
+    jobs
+    giving require credentionals of aws s3 and iam
+#Today's project github link "https://github.com/M-Anilkumar/SchoolAppdemo1.git" 
+#EC2 services
+    running auto scalling groups and test it by cpu utilization
