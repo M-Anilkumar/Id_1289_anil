@@ -1,0 +1,34 @@
+#Learning about github actions
+    context :
+        github, steps,uses, job, input, secrets, matrix, needs, env, runner
+name: to test
+on:
+  push:
+    branches:
+      master
+env:                                     #to store the variables
+  MY_NAME: "Mantra"
+jobs:
+  my_first_job:                          #my_first_job will run after the execution of my_second_job
+    runs-on: ubuntu-latest               
+    needs: my_second_job                 #checks weather my_second_job is completed
+    steps:
+      - name: Checkout code               
+        uses: actions/checkout@v2
+      - name: printing1
+        run: echo "This is $MY_NAME"
+  my_second_job:                          #my_second_job will run first
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: printing2
+        run: echo "Hello everyone"
+
+#if condition
+    if: github.event_name == 'master'
+#strategy keyword   
+    strategy:
+      matrix:
+        version: [10, 12, 14]
+        os: [ubuntu-latest, windows-latest]
