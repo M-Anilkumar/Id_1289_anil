@@ -1,0 +1,13 @@
+#learning ECS services (elestic container services)
+    Creating cluster
+    service #create a service using launch type and task
+    launch types:
+        ec2
+        fargate
+        external
+    creating containers using nginx and simple app
+    task # creating task using containers
+
+    #creating ecs cluster setups using ec2 and fargate 
+
+#learning about github actions
